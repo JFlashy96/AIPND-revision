@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: Jonathan Alston
 # DATE CREATED: 6/4/2021                                 
-# REVISED DATE: 6/12/2021
+# REVISED DATE: 6/15/2021
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
@@ -71,7 +71,7 @@ def calculates_results_stats(results_dic):
     # Replace None with the results_stats_dic dictionary that you created with 
     # this function 
     
-        results_stats_dic = {
+    results_stats_dic = {
         'n_images': len(results_dic),
         'n_dogs_img': 0,
         'n_notdogs_img': 0,
